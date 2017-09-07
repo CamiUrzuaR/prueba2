@@ -6,6 +6,8 @@ average = 0
 
 lines = []
 
+new_lines = []
+
 def show_average
   lines = File.open('notas.csv', 'r') { |file| lines = file.readlines }
   new_lines = []
